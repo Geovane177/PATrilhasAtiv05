@@ -1,0 +1,24 @@
+using System;
+
+namespace Atividade_5__E
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digita um numero até 3: ");
+			int n1 = int.Parse(Console.ReadLine());
+			
+			switch (n1) {
+					case 1: Console.WriteLine("Número 1"); break;
+					case 2: Console.WriteLine("Número 2"); break;
+					case 3: Console.WriteLine("Número 3"); break;
+			}
+			
+			
+		
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
