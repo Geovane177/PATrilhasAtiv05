@@ -1,0 +1,18 @@
+using System;
+
+namespace Atividade_5__A
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			DateTime dataatual = DateTime.Now;
+			
+			Console.WriteLine("Horario atual: "+ dataatual);
+			
+		
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
