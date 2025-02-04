@@ -13,6 +13,7 @@ namespace Atividade_5__F
 					case -1: Console.WriteLine("Negativo");break;
 					case 0: Console.WriteLine("Zero");break;
 					case 1: Console.WriteLine("Positivo");break;
+					default: Console.WriteLine("Numero invalido");break;
 			}
 			
 			
