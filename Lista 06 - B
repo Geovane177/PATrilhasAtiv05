@@ -1,0 +1,19 @@
+using System;
+
+namespace Atividade_5__B
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			DateTime data = new DateTime(2008, 03, 12);
+			DateTime data2= new DateTime(2007, 10, 07);
+			TimeSpan diferença = data - data2;
+			Console.WriteLine("diferença entre as duas datas em dias é: "+ diferença.TotalDays);
+			
+		
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
