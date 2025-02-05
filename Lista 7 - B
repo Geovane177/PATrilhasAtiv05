@@ -1,0 +1,23 @@
+using System;
+
+namespace Lista_7__B
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Console.WriteLine("Digite um numero inteiro: ");
+			int n1 = Convert.ToInt32(Console.ReadLine());
+			int cont = 0;
+			while (cont <= 10) {
+				double tabuada = n1 * cont;
+				Console.WriteLine(n1 +" X "+ cont +" = "+ tabuada);
+				cont++;
+				}			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
